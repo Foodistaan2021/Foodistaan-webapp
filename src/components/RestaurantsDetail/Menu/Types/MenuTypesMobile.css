@@ -1,0 +1,70 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.menu-types__mobile-button {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .menu-types__mobile-button {
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color: #f7c12b;
+    border: 1px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .menu-types__mobile-items {
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+
+  .menu-types__mobile-items li {
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+    color: #000;
+  }
+
+  .menu-types__mobile-items li:hover,
+  .menu-types__mobile-items li:active,
+  .menu-types__mobile-items li.active {
+    color: #f7c12b;
+    font-weight: 800;
+    border-left: 5px solid #f7c12b;
+  }
+
+  .menu-types__mobile-items {
+    text-align: center;
+  }
+
+  .menu-types__mobile-items button {
+    background-color: #f7c12b;
+    border: 1px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+  }
+}

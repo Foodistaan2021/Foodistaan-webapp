@@ -1,0 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.overview-item {
+  padding: 1rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.overview-review__card {
+  background-color: #f5f5f5;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0.5rem 1rem;
+}
+
+.overview-review__card h2 {
+  font-size: 1rem;
+}
+
+.overview-review__rating {
+  margin: 1rem 0;
+}
+
+.overview-review__rating svg {
+  font-size: 1rem;
+  color: #ffd256;
+}
+
+.overview-review__card p {
+  font-size: 0.8rem;
+}

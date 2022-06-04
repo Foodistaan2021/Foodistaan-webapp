@@ -1,0 +1,321 @@
+.restaurant-items {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	/* margin: 1rem 0rem 0rem 0rem; */
+}
+
+/* .restaurant-items{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.restaurants-header {
+	/* display: flex;
+	justify-content: center; */
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.075em;
+	/* margin: 20px auto; */
+	margin-top: 25px;
+	margin-bottom: 0.8	rem;
+	text-align: start;
+	padding: 0 6rem;
+	/* display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start; */
+}
+
+.badges {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	top: 1rem;
+}
+
+.badges h1 {
+	color: #fff;
+	font-size: 1rem;
+	padding: 0.25rem 0.8rem 0.25rem 0.25rem;
+	background: linear-gradient(to left, #fcc70c, #f55826);
+	margin: 0;
+}
+
+.badges p {
+	background-color: #000;
+	color: #fcc70c;
+	font-weight: 900;
+	border-radius: 25px;
+	padding-left: 0.5rem;
+	margin-right: 0.5rem;
+	overflow: hidden;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.badges span {
+	background-color: #fff;
+	color: #000;
+	border-radius: 25px;
+	font-weight: 400;
+	padding: 0 0.5rem;
+}
+
+.restaurant-card {
+	border-radius: 12px;
+	margin: 10px 20px;
+	width: 30rem;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card:hover {
+	-webkit-box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+	box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+}
+
+.restaurant-card a:hover {
+	color: #000;
+}
+
+.restaurant-card__image-container {
+	height: 12rem;
+	width: 100%;
+}
+
+.restaurant-card__image-container img {
+	height: 100%;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.restaurant__info {
+	padding: 0.5rem 0.5rem;
+}
+
+.restaurant__info div {
+	margin: 10px 0;
+}
+
+.restaurant__name-ratings {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.restaurant__name-ratings h1 {
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin: 0;
+}
+
+.restaurant__name-ratings p {
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: #fff;
+	background: #509807;
+	border-radius: 20px;
+	padding: 0 0.6rem;
+	margin: 0.1rem;
+}
+
+.restaurant__name-ratings svg {
+	-webkit-transform: translateY(-2px);
+	-ms-transform: translateY(-2px);
+	transform: translateY(-2px);
+	margin-left: 5px;
+}
+
+.restaurant__cuisines-cost {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 0.2rem;
+}
+
+.restaurant__cuisines-cost p {
+	margin: 0;
+}
+
+.restaurant__cuisines {
+	border-radius: 3px;
+	font-size: 1rem;
+	color: #525252;
+}
+
+.cost {
+	font-size: 1rem;
+	color: #8c8c8c;
+	margin: 0;
+}
+
+.restaurant-specifications {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.restaurant-specifications p,
+.error-specification h1 {
+	margin: 0;
+}
+.restaurant-specifications p {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: right;
+}
+
+.restaurant-specifications__delivery-takeaway {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	/* margin: 0rem 1rem; */
+}
+
+.restaurant-specifications__delivery-takeaway .specification svg,
+.restaurant-specifications__delivery-takeaway .error-specification svg {
+	color: #8c8c8c;
+	margin-right: 2px;
+	-webkit-transform: translateY(-2px);
+	-ms-transform: translateY(-2px);
+	transform: translateY(-2px);
+}
+
+.restaurant-specifications__delivery-takeaway .error-specification svg {
+	background-color: red;
+}
+
+h1.specification,
+h1.error-specification {
+	font-size: 1rem;
+	color: #8c8c8c;
+	margin: 0;
+}
+
+p.specification,
+p.error-specification {
+	color: #8c8c8c;
+	font-size: 0.7rem;
+}
+
+.error-specification {
+	color: red;
+	-webkit-text-decoration: line-through #8c8c8c;
+	text-decoration: line-through #8c8c8c;
+}
+
+.specification svg,
+.error-specification svg {
+	font-size: 1rem;
+}
+
+@media (max-width: 960px) {
+	.restaurant-item {
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+	}
+
+	
+
+	.restaurant-card {
+		width: 100%;
+		margin: 0.5rem 1.3rem;
+	}
+}
+
+@media (max-width: 640px) {
+
+	.row1{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-content: center;
+		align-items: center;
+	}
+	.col1 img{
+		width: 4rem;
+		height: 4rem;
+		margin: 0.5rem 0.5rem;
+	}
+	.restaurant-card {
+		width: 90%;
+		-webkit-box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+		box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+	}
+	.restaurants-header {
+		padding: 0 1.5rem;
+	}
+
+}
+
+
+@media (max-width:1024px){
+	.restaurants-header{
+		font-family: 'Segoe UI';
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 32px;
+		letter-spacing: 0.075em;
+		/* margin: 20px auto; */
+		margin-top: 25px;
+		margin-bottom: 0.8	rem;
+		text-align: start;
+		padding: 0;
+		margin: 0 0rem 0rem 1rem;
+	}
+	.row1{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		/* padding: 0 0rem 0rem 4rem; */
+	}
+
+	.col1 p{
+		display: none;
+	}
+
+	
+}

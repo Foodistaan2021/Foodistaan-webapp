@@ -1,0 +1,264 @@
+/* left side yellow screen */
+
+
+.outer-container{
+    box-shadow: 1px 1px 10px gray;
+}
+.bg-color{
+background-color:rgb(250,184,76);
+}
+.light-yellow{
+    background-color: rgb(255, 252, 222);
+}
+.img-size{
+    max-width: 20rem;
+    margin-bottom: 3rem;
+}
+.profile-attributes{
+    padding: 0rem;
+}
+.image-card{
+    text-align: center;
+    padding: 10rem 0;
+}
+.attributes-container{
+    padding:6rem 0 0 10rem;
+   
+}
+
+.attributes-container>ul>li{
+    color: black;
+}
+
+.active{
+    background-color: white;
+    padding: 2rem;
+}
+
+/* ___________________________________________ */
+
+
+
+.highlight-clr{
+    color: #ff8359;
+    font-weight: bold;
+}
+
+
+/* ---------------right side white screen--------------- */
+
+
+
+.white{
+    background-color: white;
+}
+.white-container{
+    padding: 6rem 4rem 7rem 4rem;
+}
+.marginB-12rem{
+    margin-bottom: 12rem;
+}
+.marginB{
+    margin-bottom: 6rem;
+}
+.marginB-4rem{
+    margin-bottom: 4rem;
+}
+.marginB-2rem{
+    margin-bottom: 2rem;
+}
+.voucher-discount{
+    font-size: 3rem; 
+    padding: 1rem;
+    margin-top: -6rem;
+    margin-left: -2rem;
+}
+.rotate45{
+    position: relative;
+    transform: rotate(45deg);
+}
+.voucher-img{
+   padding: 2.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: #FFD6DF;
+   border-radius: 1rem;
+   max-width: 32rem;
+   text-align: center;
+}
+.voucher-details{
+    font-size: 2rem;
+}
+.voucher-code{
+    font-size: 1.7rem;
+    line-height:2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+
+/* -----------profile With no Order screen---------------- */
+
+.no-order-text{
+    text-align: center;
+   line-height: 4rem;
+   color: #6d6d6d;
+   margin-top: 8rem;
+}
+.panda-img{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+/* --------------profile with some orders---------------- */
+
+.left{
+    text-align: left;
+}
+.order-card{
+    padding: 2rem;
+    text-align: left;
+    box-shadow: 1px 1px 5px gray;
+    margin-right: 2rem;
+    margin-bottom: 6rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.restro-name{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: right;
+}
+.restro-address{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.success{
+    color:#1eac1e;
+}
+.orderNumber{
+    text-align: left;
+    color: rgb(99, 99, 99);
+    font-size: 2.5rem;
+}
+.orderNo{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.items{
+    text-align: left;
+    color: rgb(99, 99, 99);
+    font-size: 2.5rem;
+}
+.total{
+    text-align: left;
+    color: rgb(99, 99, 99);
+    font-size: 2.5rem;
+}
+.view-details{
+    text-align: left;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+/* mobile view of above screen */
+@media (max-width:400px) {
+.orderedImg{
+    max-width: 10rem;
+}
+}
+
+
+/*------------------ Address screen------------------ */
+.button-container{
+    text-align: center;
+    margin-top: 4rem;
+}
+.Add-Addresses{
+    /* max-width: 100rem; */
+    padding: 4rem 20rem 4rem 20rem;
+    background-color: white;
+    border: 2px solid rgb(250,184,76);
+}
+.Add-Addresses:hover{
+    box-shadow: 1px 1px 5px rgb(145, 145, 145);
+}
+/* mobile view of address screen */
+.Add-Addresses{
+    padding: 2rem 15rem 2rem 15rem;
+}
+
+
+
+/* mobile view */
+@media (max-width:400px) {
+.voucher-discount{
+    font-size: 3.5rem; 
+    padding: 1rem;
+    margin-top: -4rem;
+    margin-left: -3rem;
+
+}
+.discountPercentage{
+    font-size: 3.5rem;
+}
+.donut-img{
+    max-width: 18rem;
+}
+.voucher-details{
+    margin-bottom: 2rem;
+}
+.voucher-img{
+    max-width: 40rem;
+
+ }
+
+}
+
+/* ----------Notification screen-------------- */
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 100px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left:4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 100px;
+}
+input:checked + .toggle-slider{
+    background-color: #D72525;
+}
+input:checked + .toggle-slider:before{
+    transform: translateX(26px);
+}

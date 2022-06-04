@@ -1,0 +1,90 @@
+
+.cards{
+    display: flex;
+}
+
+.details_container{
+    background: #FAB84C;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 34rem;
+    height: 29rem;
+    margin: auto;
+
+    /* margin-right: 1rem; */
+    /* margin: 1rem; */
+    /* margin:      0rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    /* z-index: 99; */
+    float: none;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.det_card{
+    display: flex;
+    flex-direction: column ;    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 2rem;
+    z-index: 99;
+    height: 28rem;
+}
+
+.card_img{
+    width: 33rem;
+    height: 14rem;
+}
+.card_img img{
+    width: 33rem;
+    height: 14rem;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem;
+    overflow: hidden;
+    
+}
+
+.det_title h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.075em;
+    
+    color: #000000;
+}
+
+.det_datetime p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.075em;
+    
+    color: #DADADA;
+}
+
+.det_description p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    width: 100%;
+    word-wrap: break-word;
+    color: #000000;
+    width: 30rem;
+  
+}

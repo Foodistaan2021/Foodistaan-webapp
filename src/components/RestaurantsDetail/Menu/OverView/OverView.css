@@ -1,0 +1,40 @@
+.overview {
+  -webkit-box-flex: 7;
+  -ms-flex: 7;
+  flex: 7;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.overview-container {
+  margin: 1rem;
+}
+
+.overview-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.overview__img_container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.overview__img_container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 960px) {
+  .overview-container {
+    margin: 0;
+  }
+  .overview-container h1 {
+    font-size: 2rem;
+  }
+}

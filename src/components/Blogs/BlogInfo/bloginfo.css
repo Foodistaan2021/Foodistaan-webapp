@@ -1,0 +1,124 @@
+.all_blogs{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_info{
+    /* position:absolute; */
+    /* top: 100%; */
+    /* left: 0;  */
+    /* right: 0;    */
+    /* height: fit-content; */
+    /* margin-left: auto; 
+    margin-right: auto;  */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+    clear: both;
+    padding-bottom: 1rem;
+    margin-top: -15rem;
+}
+
+.blog_heading{
+    margin: 1rem 0rem;
+    text-align: center;
+}
+
+.blog_heading h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: 0.075em;
+    color: #000000;
+}
+
+.blog_heading p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height */
+    letter-spacing: 0.075em;
+    color: #787878;
+}
+
+.blog_description {
+    display: block;
+    width: 90%;
+    word-wrap: break-word;
+    margin: 1rem 0rem;
+}
+
+.share_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 69%;
+}
+
+.share_buttons p:nth-child(1){
+    margin: 0rem 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #FAB84C;
+}
+.share_buttons span{
+    /* background: #000000; */
+    
+    margin: 0rem 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 35px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.blogs_detail{
+    height: 100%;
+}
+.bottom_cards h1{
+    float: left;
+}
+
+
+.blog_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left_img{
+    margin-right: 15rem;
+}
+
+.right_img{
+    margin-left: 15rem;
+}
+.more_head h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0.075em;
+    
+    color: #000000;
+}

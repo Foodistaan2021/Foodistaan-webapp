@@ -1,0 +1,14 @@
+.overview-story {
+  padding: 2rem;
+}
+
+.overview-story p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 960px) {
+  .overview-story p {
+    font-size: 0.8rem;
+  }
+}

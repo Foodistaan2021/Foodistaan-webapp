@@ -1,0 +1,124 @@
+.superstar {
+  padding: 1rem;
+}
+
+.superstar h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  color: #3e313e;
+  margin: 2rem 0;
+}
+
+.superstar__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.superstar-img__container {
+  height: 15rem;
+  width: 60rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.superstar-img__container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.superstar-name {
+  margin: 10px 0;
+  text-align: center;
+  -webkit-transform: translate(10%, 20rem);
+  -ms-transform: translate(10%, 20rem);
+  transform: translate(10%, 20rem);
+}
+
+.superstar-name p,
+.superstar-name h3 {
+  font-size: 1rem;
+}
+
+.superstar-name h3 {
+  font-weight: 600;
+  color: #3e313e;
+}
+
+.superstar-name p {
+  color: #959195;
+}
+
+.superstar-info__container p {
+  font-size: 1.2rem;
+  color: #3e313e;
+  margin: 0 0 0 5rem;
+}
+
+.quote-image__background {
+  -webkit-transform: translate(65rem, -4rem);
+  -ms-transform: translate(65rem, -4rem);
+  transform: translate(65rem, -4rem);
+}
+
+@media (max-width: 960px) {
+  .superstar__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .superstar-name {
+    width: 50%;
+    -webkit-transform: translate(10rem, 7.5rem);
+    -ms-transform: translate(10rem, 7.5rem);
+    transform: translate(10rem, 7.5rem);
+  }
+
+  .superstar-img__container {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .quote-image__background {
+    height: 100px;
+    width: 100px;
+    -webkit-transform: translate(15rem, 0);
+    -ms-transform: translate(15rem, 0);
+    transform: translate(15rem, 0);
+  }
+
+  .superstar-info__container p {
+    font-size: 1rem;
+    color: #3e313e;
+    margin: 0 0 0 1rem;
+  }
+
+  .quote-image__background img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .superstar h1 {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+}

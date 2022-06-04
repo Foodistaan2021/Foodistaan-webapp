@@ -1,0 +1,110 @@
+.cart-item {
+  margin: 1rem;
+}
+
+.cart-item p,
+.cart-item h1 {
+  letter-spacing: normal;
+}
+
+.cart-item__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cart-item__price {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 0.2rem;
+  text-align: end;
+}
+
+.cart-item__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cart-item p {
+  font-size: 0.7rem;
+  color: rgb(138, 138, 138);
+}
+
+.cart-item__actions button {
+  border: none;
+  font-size: 0.8rem;
+}
+
+.cart-item__customize button {
+  background-color: #fff;
+  padding: 0;
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.cart-item__customize p {
+  margin: -0.5rem 0 0;
+  font-size: 1rem;
+}
+
+.cart-item__customize button span {
+  border-radius: 50%;
+  background-color: #f7c12b;
+  padding: 0 1px;
+}
+
+.cart-item__customize span svg {
+  color: #fff;
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+.cart-item__dial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.cart-item__dial button {
+  height: 2rem;
+  width: 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.cart-item__dial p {
+  height: 1.5rem;
+  font-size: 1rem;
+  width: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #f7c12b;
+  -webkit-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.cart-item__dial button:last-of-type {
+  background-color: #f7c12b57;
+  color: #f7c12b;
+}

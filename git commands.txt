@@ -1,0 +1,6 @@
+git add .
+git commit -m ""
+git push origin devlopment
+pr on dev branch  
+git fetch upstream dev
+git pull upstream dev 

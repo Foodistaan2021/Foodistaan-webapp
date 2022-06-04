@@ -1,0 +1,75 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.menu-types {
+	width: fit-content;
+}
+
+.menu-types hr {
+	margin-left: 4rem;
+	color: #c4c4c4;
+}
+
+.menu-types__heading {
+	font-size: 1.5rem;
+	font-weight: 700;
+	cursor: pointer;
+	padding: 1rem 0;
+}
+
+.menu-types ul {
+	cursor: pointer;
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-evenly;
+	width: 50vw;
+}
+
+.menu-types li {
+	padding: 1rem 0;
+	margin-right: 1rem;
+	font-size: 1rem;
+	color: #000;
+	transition: all 150ms ease-in-out;
+}
+
+.menu-types li:hover,
+.menu-types li:active,
+.menu-types li.active {
+	color: #f7c12b;
+	border-bottom: 5px solid #f7c12b;
+}
+
+@media (max-width: 1024px){
+	.menu-types{
+		width: 100%;
+	}
+	.menu-types li{
+		font-size: 1.5rem;
+		margin-right: 0;
+	}
+	.menu-types ul{
+		margin-left: 2.8rem;
+		/* width: 100vw; */
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 960px) {
+	.menu-types {
+		display: none;
+	}
+
+	.menu-types ul {
+		display: none;
+	}
+
+	.menu-types li {
+		display: none;
+	}
+}

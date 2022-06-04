@@ -1,0 +1,168 @@
+.restaurant-detail__info-offers {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.restaurant-detail__info-offers .card {
+	height: -webkit-max-content;
+	height: -moz-max-content;
+	height: max-content;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: 100%;
+	padding: 0.3rem 1rem 0.5rem 3rem;
+	border-radius: 10px;
+	color: #000;
+	position: relative;
+}
+
+.restaurant-detail__info-offers .card {
+	background-color: #e3e7e0;
+	overflow: hidden;
+}
+
+.restaurant-detail__info-offers .card:first-of-type {
+	margin-right: 10px;
+}
+
+.restaurant-detail__info-offers .card:first-of-type .offers__title {
+	background-color: #e23744;
+}
+
+.restaurant-detail__info-offers .card:last-of-type .offers__title {
+	background-color: #84c225;
+}
+
+.offer_container {
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	position: absolute;
+	left: -35px;
+	top: 30px;
+}
+
+.offers__title {
+	margin: 0;
+	padding: 0.25rem 1rem;
+	bottom: 25px;
+	font-size: 1.6rem;
+	font-weight: 700;
+	/* -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg); */
+	margin: 0;
+	color: #fff;
+}
+
+.restaurant-detail__info-offers .card-title {
+	font-size: 1rem;
+}
+
+.restaurant-detail__info-offers .card-text {
+	margin-bottom: 0.25rem;
+}
+
+.restaurant-detail__info-offers p {
+	font-size: 0.7rem;
+}
+
+@media (max-width: 960px) {
+
+
+	.offers_off{
+		margin-left: 1.5rem;
+	}
+
+
+	.restaurant-detail__info-offers .card-title {
+		font-family: 'Segoe UI';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 11.7167px;
+		line-height: 16px;
+/* identical to box height */
+		margin-bottom:0.2rem;
+		letter-spacing: 0.01em;
+
+		color: rgba(35, 35, 35, 0.8);
+	}
+	.restaurant-detail__info-offers .card-text {
+		font-family: 'Segoe UI';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 8.721px;
+		line-height: 12px;
+		/* identical to box height */
+		
+		letter-spacing: 0.01em;
+		
+		color: rgba(0, 0, 0, 0.8);
+	}
+
+
+
+
+	.offer_container{
+		width: 10rem;
+		/* height: 2.5rem; */
+		/* display: flex; */
+		/* flex-direction: row; */
+		/* justify-content: center; */
+		transform: rotate(270deg);
+		position: absolute;
+		left: -68px;
+		top: 24px;
+	}
+
+	.offers__title{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+	}
+	.restaurant-detail__info-offers {
+		margin-right: 1rem;
+		margin-top: 1rem;
+
+	}
+
+	.restaurant-detail__info-offers .card {
+		width: 10rem;
+		height: 4rem;
+		padding: 0.2rem;
+	}
+	.restaurant-detail__info-offers .card:first-of-type {
+		/* margin: 0 0 5px 0; */
+	}
+
+	.offers__container {
+		font-size: 0.5rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.restaurant-detail__info-offers{
+		/* margin-left: 1rem; */
+	}
+	.restaurant-detail__info-offers .card {
+		/* padding-left: 3rem; */
+	}
+	.restaurant-detail__info-offers .card:first-of-type {
+		/* margin: 0 0 5px 0; */
+	}
+
+	
+	.restaurant-detail__info-offers p {
+		font-size: 0.5rem;
+	}
+
+	/* .offers__title {
+		font-size: 1.2rem;
+		padding: 0.25rem 1.5rem;
+	} */
+}

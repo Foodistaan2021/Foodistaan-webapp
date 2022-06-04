@@ -1,0 +1,95 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.menu-list__tabs {
+	border-radius: 30px;
+	background-color: #fff;
+	width: 50%;
+	margin: 1rem 1rem;
+	cursor: pointer;
+	margin: 1rem auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-shadow: 0 5px 12px rgb(0, 0, 0, 0.2);
+	box-shadow: 0 5px 12px rgb(0, 0, 0, 0.2);
+	/* margin-bottom: 30px; */
+}
+
+.menu-list__tabs div {
+	padding: 1rem;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	width: 100%;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #bababa;
+	text-align: center;
+	/* margin: 1rem; */
+}
+
+.menu-list__tabs svg {
+	font-size: 1.5rem;
+}
+
+.menu-list__tabs div:hover,
+.menu-list__tabs .active {
+	border-color: #f7c12b;
+	color: #000;
+	background-color: #fffcde;
+}
+
+@media (max-width:1024px){
+	.menu-list__tabs {
+		width: 80%;
+		border-radius: 33px;
+		/* height: 5rem; */
+		/* padding: 1rem 0rem; */
+	}
+	.menu-list__tabs div{
+		border-radius: 33px;
+		font-size: 1.6rem;
+	}
+	.menu-list__tabs svg{
+		font-size: 1.5rem;
+	}
+}
+
+
+
+@media (max-width: 640px) {
+	.menu-list__tabs {
+		border-radius: 25px;
+	background-color: #fff;
+	width: 100%;
+	/* margin: 1rem 1rem; */
+	cursor: pointer;
+	margin: 30px auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-shadow: 0 5px 12px rgb(0, 0, 0, 0.2);
+	box-shadow: 0 5px 12px rgb(0, 0, 0, 0.2);
+	margin-bottom: 30px;
+	}
+
+	.menu-list__tabs div {
+		font-size: 1rem;
+	}
+}

@@ -1,0 +1,63 @@
+.customize-modal__header {
+  background-color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.customization-input {
+  padding: 0.2rem 1rem;
+}
+
+.customization-input label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.customization-footer {
+  text-align: end;
+  padding: 0 1rem;
+}
+
+.customization-footer button {
+  padding: 0.5rem;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-right: 1rem;
+}
+
+.customization-footer button:last-of-type {
+  color: #d72525;
+  background-color: #fff;
+}
+
+.customization-footer button:last-of-type:hover {
+  background-color: #d72525;
+  color: #fff;
+}
+
+@media (max-width: 960px) {
+  .customization-footer {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .customization-footer button {
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+  }
+
+  .customization-footer button:last-of-type {
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@font-face {
+	font-family: Segoe Ui;
+	src: url('../../../fonts/Segoe\ UI.ttf');
+}
+
+.menu {
+	margin-top: 2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	/* padding: 0 6rem; */
+}
+
+.menu ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.menu h1,
+.menu h3,
+.menu ul,
+.menu li,
+.menu p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 1.5px;
+}
+
+@media (max-width: 960px) {
+	.menu h1,
+	.menu h3,
+	.menu ul,
+	.menu li,
+	.menu p {
+		letter-spacing: normal;
+	}
+}

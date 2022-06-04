@@ -1,0 +1,54 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.overview-review {
+  padding: 2rem;
+}
+
+.overview-review__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.overview-review__form textarea {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0 10px;
+  border: none;
+  -webkit-box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
+
+.overview-review__form textarea:focus {
+  outline: none;
+}
+
+.overview-review__form button {
+  border-radius: 50%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #f7c12b;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #f7c12b;
+  background-color: #fffcde;
+}
+
+.overview-review__form button:hover {
+  background-color: #f7c12b;
+  color: #fffcde;
+}
